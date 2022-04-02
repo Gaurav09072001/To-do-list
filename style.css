@@ -1,0 +1,77 @@
+body{
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+ul{
+  /*margin-left:400px;*/
+  text-align: center;
+  margin: 32px 60% 32px 40% ;
+}
+li {
+  color: rgba(255,0,0, 1.5);
+  /*margin-left: 100px;*/
+  cursor: pointer;
+  text-align: left;
+}
+
+h1, p {  
+  margin-top: 50px;
+  flex-wrap: nowraps;
+  color:#482762;
+ /* margin-left: 100px;*/
+}
+
+button {
+  color: #fff; 
+  background: #a0829b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1502045856-4882464b27a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb58b8557664af04651b19dbe014a86e&auto=format&fit=crop&w=1600&q=60");
+ background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  /*margin-left: 170px;*/
+}
+
+.testingIt {
+  text-decoration-line: line-through;
+}
+
+.deleteButton {
+  background-color: #a0829b;
+  color: #fff;
+  border-radius: 30px
+  margin: 20px;
+}
+
+.done {
+  text-decoration: line-through #ff3c3c;
+}
